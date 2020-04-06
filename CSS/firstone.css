@@ -1,0 +1,492 @@
+html,body{
+    height: 100%;
+    min-height: 100%;
+    font-size: 14px;
+    letter-spacing: 0;
+    min-width: 1000px;
+    max-width: 1600px;
+}
+.page{
+    width: 100%;
+    background-color:#fff;
+    font-family: Montserrat-ExtraLight;
+    overflow: hidden;
+}
+.pg-head,#section1,#section2,#section3,#section4,#section5,#section6,#section7{
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+}
+.pg-head{
+    background: url("../images/bg1.png")no-repeat 100% 100%;
+    position: relative;
+    width: 100%;
+    height: 990px;
+    color: #fff;
+}
+.modal::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9998;
+    left: 0;
+    top: 0;
+    background-color:#14141461;
+    content: "";
+    display: block;
+}
+.content{
+    width: 1027px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 3%;
+}
+.pg-head .content{
+    padding-left: 0;
+}
+.text{
+    padding-top: 10%;
+}
+.text h2{
+    color: #fff;
+    font-size: 4.4rem;
+}
+.text p{
+    padding-top: 6rem;
+    font-size: 20px;
+}
+.placeholder{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 11%;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 3.5rem 1.8rem;
+}
+.placeholder h3{
+	font-size: 16px;
+    letter-spacing: 2.4px;
+}
+.placeholder p{
+    font-size: 12px;
+	letter-spacing: 1.8px;
+    padding-top: 20px;
+}
+.placeholder form{
+    padding-top: 3.2rem;
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.placeholder input,.placeholder button{
+    line-height: 3;
+    color: #000;
+}
+.placeholder input{
+	border-radius: 2px;
+    border: solid 1px #fff;
+    text-indent: 1.5em;
+    color: #fff !important;
+    flex: 2 292px;
+    margin-right: 2rem;
+    background-color: transparent;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+}
+
+
+
+/* stop */
+.placeholder input[type*="text"]:focus{
+    background-color: transparent;
+}
+.placeholder input[type*="text"]:active {
+    background-color: transparent;
+}
+/* stop */
+
+
+.placeholder button{
+    border-radius: 2px;
+    background-color: #fff;
+    flex: 1 125px;
+}
+
+
+
+/* 第二部分 */
+#section1{
+    width: 100%;
+    height: 730px;
+    background-color: #fff;
+}
+#section1 h3{
+    padding-top: 6.5rem;
+}
+#section1 .content>p{
+    margin-top: 2.7rem;
+    font-size: 3rem;
+}
+.panel{
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+.panel div{
+    flex: 1 40%;
+    text-align: left;
+    vertical-align: text-top;
+    margin-bottom: 10%;
+}
+.panel div:nth-child(odd){
+    margin-right: 10%;
+}
+.IphoneIcon{
+    background: url("../images/IphoneIcon.png")no-repeat top left;
+}
+.CheckIcon{
+    background: url("../images/CheckIcon.png")no-repeat top left;
+}
+.PencilIcon{
+    background: url("../images/PencilIcon.png")no-repeat top left;
+}
+.SettingsIcon{
+    background: url("../images/SettingsIcon.png")no-repeat top left;
+}
+.panel div h4,.panel div p{
+    margin-left: 5rem;
+}
+.panel div h4{
+    font-size: 20px;
+}
+.panel div p{
+    line-height: 2;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* 第三部分 */
+
+#section2{
+    width: 100%;
+    height: 800px;
+    background: url("../images/bg2.png")no-repeat left top/100% 100%;
+    position: relative;
+}
+#section2 .details{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #fff !important;
+}
+#section2 .details p{
+    margin-right: 61%;
+    font-size: 18px;
+}
+#section2 .details p:nth-child(1){
+    padding-top: 23%;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+#section2 .details button{
+    min-width: 240px;
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    opacity: 0.3;
+    background-color: transparent;
+    position: relative;
+    z-index: 9999;
+    margin-top: 4rem;
+}
+#section2 .details button:nth-of-type(1){
+    margin-right: 2rem;
+}
+#section2 .details button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.ipad{
+    width: 50%;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 13%;
+    bottom: 12%;
+    margin: auto 0;
+    right: -8rem;
+    padding: 2rem 4rem;
+}
+.ipad .openi{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 2rem;
+    background-color: transparent;
+}
+
+
+
+/* 第四部分 */
+
+#section3{
+    height: 580px;
+}
+#section3 .content h3{
+    font-size: 3rem;
+    margin-top: 10%;
+}
+#section3 .content .logos{
+    display: flex;
+    flex-flow:row wrap;
+    margin-top: 8%;
+}
+#section3 .content .logos>div{
+    margin-right: 5%;
+    flex: 1;
+    padding-top: 5rem;
+}
+#section3 .content .logos>div:nth-child(1){
+    background: url("../images/singleton.png")no-repeat top center;
+}
+#section3 .content .logos>div:nth-child(2){
+    background: url("../images/hero.png")no-repeat top center;
+}
+#section3 .content .logos>div:nth-child(3){
+    background: url("../images/portland.png")no-repeat top center;
+}
+
+/* 第五部分 */
+#section4{
+    height: 1000px;
+}
+#section4 .content{
+    padding-top: 8rem;
+    padding-right: 1rem;
+}
+#section4 .photo-des{
+    overflow: hidden;
+    margin-bottom: 5.7rem;
+}
+#section4 .top img{
+    float: left;
+    text-align: left;
+}
+#section4 .top p{
+    float: right;
+}
+#section4 .down img{
+    float: right;
+}
+#section4 .down p{
+    float: left;
+}
+#section4 .photo-des p{
+    width: 31%;
+    vertical-align: text-top;
+    text-align: left;
+    font-size: 16px;
+}
+#section4 .photo-des p:first-of-type{
+    font-size: 20px;
+}
+#section4 .photo-des p:nth-of-type(2){
+    margin-top: 2em;
+}
+
+/* 第六部分 */
+
+#section5{
+    height: 1084px;
+}
+#section5 dl{
+    width: 100%;
+    height: 100%;
+}
+#section5 dl dt{
+    padding-top: 9%;
+    font-size: 3rem;
+}
+#section5 dl dd{
+    position: relative;
+    width: 46%;
+    height: 31%;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+}
+#section5 dl dd:nth-child(odd){
+    margin-left: 0;
+}
+#section5 dl dd:first-of-type{
+    width: 100%;
+    float: none;
+    height: auto;
+    color: inherit;
+    margin-left: 0;
+}
+#section5 dl dd img{
+    width: 100%;
+    height: 100%;
+}
+#section5 dl dd .des{
+    width: 100%;
+    height: 100%;
+    background-color: #0000005c;
+    position: absolute;
+    top:0;
+    left: 0;
+    visibility: hidden;
+    z-index: 9999;
+}
+#section5 dl dd:hover .des{
+    visibility: visible;
+    cursor: url("../images/HandIcon.png"),pointer;
+}
+#section5 dl dd:hover .des a{
+    cursor: url("../images/HandIcon.png"),pointer;
+}
+#section5 dl dd .des p:first-of-type{
+    margin-top: 20%;
+}
+
+#section5 dl dd .des i{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+}
+#section5 dl dd .des i:nth-of-type(1){
+    background: url(../images/FacebookIcon.png)no-repeat center;
+}
+#section5 dl dd .des i:nth-of-type(2){
+    background: url(../images/TwitterIcon.png)no-repeat center;
+}
+#section5 dl dd .des i:nth-of-type(3){
+    background: url(../images/InstagramIcon.png)no-repeat center;
+}
+
+/* 第七部分 */
+#section6{
+    height: 700px;
+}
+#section6 .message-panel{
+    width: 46%;
+    border-radius: 10px;
+    border: solid 1px #141414;
+    margin-top: 7%;
+    float: left;
+}
+#section6 .message-panel p{
+    font-size: 16px;
+    margin: 11% 0;
+}
+#section6 .message-panel label,#section6 .message-panel textarea,#section6 .message-panel button{
+    display:block;
+    margin: 0 11%;
+    margin-bottom: 6%;
+    border: 1px solid #141414;
+    border-radius: 2px;
+    width: 78%;
+    line-height: 2.5;
+}
+#section6 .message-panel input{
+    line-height: 2.5;
+    width: 100%;
+    text-indent: 1em;
+}
+#section6 .message-panel textarea{
+    height: 26%;
+    text-indent: 1em;
+    resize: none;
+}
+#section6 .message-panel button{
+    background-color: #000;
+    color: #fff;
+}
+
+#section6 .contact-info{
+    width: 46%;
+    float: right;
+    text-align: left;
+    margin-top: 7%;
+}
+#section6 .contact-info p{
+    font-size: 16px;
+}
+#section6 .contact-info p:first-of-type{
+    font-size: 3rem;
+    line-height: 3;
+    margin-top: 1em
+}
+#section6 .contact-info ul{
+    margin-top: 4em;
+}
+#section6 .contact-info ul li{
+    font-size: 16px;
+    margin-top: 2em;
+    padding-left: 3em;
+}
+#section6 .contact-info ul li span{
+    display: block;
+}
+#section6 .contact-info ul li:nth-of-type(1){
+    background: url(../images/MapIcon.png)no-repeat left;
+}
+#section6 .contact-info ul li:nth-of-type(2){
+    background: url(../images/PhoneIcon.png)no-repeat left;
+}
+#section6 .contact-info ul li:nth-of-type(3){
+    background: url(../images/MailIcon.png)no-repeat left;
+}
+#footer{
+    background-color: #141414;
+    height: 410px;
+    padding-top: 5%;
+    padding-left: 13%;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 16px;
+}
+#footer .menus-item{
+    flex: 1;
+}
+#footer .menus-item li:first-of-type,#footer .text-socials p:first-of-type{
+    font-size: 14px;
+    line-height: 2rem;
+    color: #fff;
+}
+#footer .menus-item a,#footer .text-socials p{
+    line-height: 3;
+    color: #656565;
+}
+#footer .text-socials{
+    flex: 2;
+}
+#footer .text-socials a{
+    display: inline-block;
+    margin-top: 1.5em;
+    padding-right: 1em;
+}
